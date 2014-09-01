@@ -1,47 +1,31 @@
-/*See http://ethanschoonover.com/solarized for the color values that have comments.*/
+/* See http://ethanschoonover.com/solarized for the color values that have comments. */
 
 body {
-  color: #586e75; /*base01*/
-  background: #fdf6e3; /*base3*/
-  font-size: 14px;
-  line-height: 1.5;
+    color: #586e75; /*base01*/
+    background: #fdf6e3; /*base3*/
+    font-size: 14px;
+    line-height: 1.5;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, sans-serif;
 }
 
 h1, h2, h3 {
     color: #073642; /*base02*/
-    font-family: Arial, sans-serif;
-}
-
-#content, #disqus_thread {
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#navigation {
-    font-family: Arial, sans-serif;
 }
 
 a:link {
-  color: #268bd2; /*blue*/
+    color: #268bd2; /*blue*/
 }
 a:visited {
-  color: #d33682; /*magenta*/
+    color: #d33682; /*magenta*/
 }
 
 pre code {
     display: block;
     overflow: auto;
     padding: 10px;
-}
-
-code.has-jax {
-    font: inherit;
-    color: #073642; /*base02*/
-    font-size: 100%;
-    background: inherit;
-    border: inherit;
-    padding: 0px 0px; /*top-bottom, right-left*/
 }
 
 blockquote {
