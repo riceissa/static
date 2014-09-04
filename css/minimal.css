@@ -29,6 +29,7 @@ pre code {
 }
 
 blockquote {
+    margin: 0px;
     color: #657b83; /*base00*/
     padding: 0px 16px; /*top-bottom, right-left*/
     border-left: 4px solid #93a1a1; /*base1*/
